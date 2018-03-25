@@ -5,7 +5,7 @@ use Psr\Http\Message\ServerRequestInterface;
 use App\Models\WebApi\TwitterApi;
 use Exception;
 
-class User
+class TwitterUser
 {
     protected $twitterApi;
     protected $helper;
