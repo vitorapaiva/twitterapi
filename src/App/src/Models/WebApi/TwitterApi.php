@@ -28,7 +28,7 @@ class TwitterApi
 
     public function getUserInfo($user){
         $connection = $this->connectTwitter();
-        return $connection->get("account/settings", ["q" => "vitorapaiva"]);
+        return $connection->get("account/settings", ["q" => $user]);
     }
 }
 
