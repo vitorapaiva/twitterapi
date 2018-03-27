@@ -2,3 +2,11 @@
 composer.lock
 vendor
 env
+.idea
+composer.phar
+
+clover.xml
+coveralls-upload.json
+phpunit.xml
+vendor/
+

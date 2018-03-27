@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Models\WebApi;
+namespace App\Models\WebApi;
 
 use Abraham\TwitterOAuth\TwitterOAuth;
 
@@ -28,7 +28,7 @@ class TwitterApi
 
     public function getUserInfo($user){
         $connection = $this->connectTwitter();
-        return $connection->get("search/tweets", ["q" => "twitterapi"]);
+        return $connection->get("account/settings", ["q" => "vitorapaiva"]);
     }
 }
 
