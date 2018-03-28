@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "36d2fabf505e5cceddce144651224b1e",
+    "content-hash": "dc1a3f280c9406ea591e368917eb4c8c",
     "packages": [
         {
             "name": "abraham/twitteroauth",
@@ -2348,16 +2348,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "7.0.2",
+            "version": "7.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "e2f8aa21bc54b6ba218bdd4f9e0dac1e9bc3b4e9"
+                "reference": "536f4d853c12d8189963435088e8ff7c0daeab2e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/e2f8aa21bc54b6ba218bdd4f9e0dac1e9bc3b4e9",
-                "reference": "e2f8aa21bc54b6ba218bdd4f9e0dac1e9bc3b4e9",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/536f4d853c12d8189963435088e8ff7c0daeab2e",
+                "reference": "536f4d853c12d8189963435088e8ff7c0daeab2e",
                 "shasum": ""
             },
             "require": {
@@ -2371,7 +2371,7 @@
                 "phar-io/version": "^1.0",
                 "php": "^7.1",
                 "phpspec/prophecy": "^1.7",
-                "phpunit/php-code-coverage": "^6.0",
+                "phpunit/php-code-coverage": "^6.0.1",
                 "phpunit/php-file-iterator": "^1.4.3",
                 "phpunit/php-text-template": "^1.2.1",
                 "phpunit/php-timer": "^2.0",
@@ -2424,7 +2424,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2018-02-26T07:03:12+00:00"
+            "time": "2018-03-26T07:36:48+00:00"
         },
         {
             "name": "phpunit/phpunit-mock-objects",
@@ -3442,16 +3442,16 @@
         },
         {
             "name": "zendframework/zend-expressive-tooling",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zend-expressive-tooling.git",
-                "reference": "9ecdcab2348381727eb6a939ac4cd912304f4036"
+                "reference": "0e5b030961cd980323dd48965d13d5cb904b51de"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-expressive-tooling/zipball/9ecdcab2348381727eb6a939ac4cd912304f4036",
-                "reference": "9ecdcab2348381727eb6a939ac4cd912304f4036",
+                "url": "https://api.github.com/repos/zendframework/zend-expressive-tooling/zipball/0e5b030961cd980323dd48965d13d5cb904b51de",
+                "reference": "0e5b030961cd980323dd48965d13d5cb904b51de",
                 "shasum": ""
             },
             "require": {
@@ -3470,8 +3470,8 @@
                 "malukenho/docheader": "^0.1.6",
                 "mikey179/vfsstream": "^1.6.5",
                 "mockery/mockery": "^1.0",
-                "php-mock/php-mock-phpunit": "^2.0",
-                "phpunit/phpunit": "^6.4.4, <6.5",
+                "php-mock/php-mock-phpunit": "^2.1",
+                "phpunit/phpunit": "^7.0.3",
                 "zendframework/zend-coding-standard": "~1.0.0"
             },
             "bin": [
@@ -3503,7 +3503,7 @@
                 "zend-expressive",
                 "zf"
             ],
-            "time": "2018-03-15T19:13:58+00:00"
+            "time": "2018-03-27T19:29:07+00:00"
         },
         {
             "name": "zfcampus/zf-composer-autoloading",

@@ -17,4 +17,19 @@
         </form>
     </div>
 </div>
+<div>
+    
+    <div class="col-md-10">
+      <?php if($data['result']) { ?>
+      <ul>
+      <li><?php echo $data['user_name']; ?></li>
+      <li>Place name: <?php echo $data["localidade"]; ?></li>
+      <li>Google Maps Link: <a href="<?php echo $data["link"]; ?>" target="_blank"><?php echo $data["localidade"]; ?></a></li>
+      </ul>
+     <?php } else { ?>
+     <?php echo $data['user_name']; ?>
+     <?php } ?>
+    </div>
+   
+</div>
 
